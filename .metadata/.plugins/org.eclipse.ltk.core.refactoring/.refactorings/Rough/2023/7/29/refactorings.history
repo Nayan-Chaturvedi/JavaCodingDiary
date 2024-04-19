@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;StrongNum_DurgaSoft.java&apos; to &apos;YouTube/src/durgaSoft&apos;&#x0D;&#x0A;- Original project: &apos;YouTube&apos;&#x0D;&#x0A;- Destination element: &apos;YouTube/src/durgaSoft&apos;&#x0D;&#x0A;- Original element: &apos;projectATM.StrongNum_DurgaSoft.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;durgaSoft" element1="/src&lt;projectATM{StrongNum_DurgaSoft.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1690028718105" units="1" version="1.0"/>
+</session>

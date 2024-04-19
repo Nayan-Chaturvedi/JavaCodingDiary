@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\EclipseWorkspace"/>
+			<item value="D:\SpringBoot_Project\CRUD"/>
+			<item value="D:\EclipseWorkspace\Rough\src"/>
+			<item value="D:\SpringBoot_Project\Sringboot_Security\src\main\java\Sringboot_SpringSecurity\SpringSecurityClass.java"/>
+			<item value="D:\EclipseWorkspace\HibDemo"/>
+			<item value="D:\EclipseWorkspace\CoreJava"/>
+			<item value="D:\EclipseWorkspace\Rough\src\rough__\Rough_1.java"/>
+			<item value="D:\EclipseWorkspace\JavaWithDSA"/>
+			<item value="D:\EclipseWorkspace\Rough"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.google.Spring_MVC"/>
+			<item value="com.google.mvc"/>
+			<item value="com.youTube.mvc"/>
+			<item value="com.google.Persistence_Operation"/>
+			<item value="com.google.HibDemo"/>
+			<item value="com.google.ComputerScience"/>
+		</list>
+		<list key="groupId">
+			<item value="com.google"/>
+			<item value="com.youTube"/>
+		</list>
+		<list key="artifactId">
+			<item value="Spring_MVC"/>
+			<item value="mvc"/>
+			<item value="Persistence_Operation"/>
+			<item value="HibDemo"/>
+			<item value="ComputerScience"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\SpringBoot_Project\API-Gateway"/>
+			<item value="D:\SpringBoot_Project\ServiceRegistry"/>
+			<item value="D:\SpringBoot_Project\QuestionService"/>
+			<item value="D:\SpringBoot_Project\QuizService"/>
+			<item value="D:\SpringBoot_Project\Sringboot_Security"/>
+			<item value="D:\SpringBoot_Project\CRUD"/>
+			<item value="D:\EclipseWorkspace\Persistence_Operation"/>
+			<item value="D:\SpringBoot_Project\SpringBoot_Project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

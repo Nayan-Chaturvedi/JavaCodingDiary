@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;extra_.Rough_1&apos; to &apos;FabonnaciSeries&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava&apos;&#x0D;&#x0A;- Original element: &apos;extra_.Rough_1&apos;&#x0D;&#x0A;- Renamed element: &apos;extra_.FabonnaciSeries&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Rough_1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;extra_{Rough_1.java[Rough_1" matchStrategy="1" name="FabonnaciSeries" qualified="false" references="true" similarDeclarations="false" stamp="1699685229270" textual="false" version="1.0"/>
+</session>

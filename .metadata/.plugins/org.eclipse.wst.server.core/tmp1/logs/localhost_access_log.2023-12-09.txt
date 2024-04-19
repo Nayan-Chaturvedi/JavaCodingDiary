@@ -1,0 +1,15 @@
+127.0.0.1 - - [09/Dec/2023:15:20:08 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:15:20:10 +0530] "GET /mvc/ HTTP/1.1" 200 354
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:15:20:10 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [09/Dec/2023:15:22:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:15:22:35 +0530] "GET /mvc/WEB-INF/classes/com/google/mvc/config/MvcConfiguration.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:15:23:02 +0530] "GET /mvc/hello HTTP/1.1" 200 354
+127.0.0.1 - - [09/Dec/2023:16:05:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:16:05:54 +0530] "GET /Spring_MVC/ HTTP/1.1" 200 354
+127.0.0.1 - - [09/Dec/2023:16:07:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:16:07:42 +0530] "GET /Spring_MVC/WEB-INF/classes/com/google/Spring_MVC/config/MvcConfiguration.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:16:07:54 +0530] "GET /Spring_MVC/nayan HTTP/1.1" 200 355
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:16:08:04 +0530] "GET /Spring_MVC/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:16:08:08 +0530] "GET /Spring_MVC/nayan HTTP/1.1" 200 355
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:16:08:52 +0530] "GET /Spring_MVC/nayan HTTP/1.1" 200 355
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:16:09:06 +0530] "GET /Spring_MVC/nayan HTTP/1.1" 200 355

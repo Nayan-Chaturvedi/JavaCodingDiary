@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;projectATM.atmOperationInterface&apos; to &apos;AtmOperationInterface&apos;&#x0D;&#x0A;- Original project: &apos;YouTube&apos;&#x0D;&#x0A;- Original element: &apos;projectATM.atmOperationInterface&apos;&#x0D;&#x0A;- Renamed element: &apos;projectATM.AtmOperationInterface&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;atmOperationInterface&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;projectATM{atmOperationInterface.java[atmOperationInterface" matchStrategy="1" name="AtmOperationInterface" qualified="false" references="true" similarDeclarations="false" stamp="1687020720270" textual="false" version="1.0"/>
+</session>
