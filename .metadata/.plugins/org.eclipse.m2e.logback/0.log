@@ -2713,3 +2713,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpringJpaExampleApp
 2024-06-07 17:02:41,801 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SpringInitilizer_EclipseWorkspace\SpringJpaExample\src\test\resources
 2024-06-11 15:41:00,765 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-06-11 15:41:01,069 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2024-06-13 15:20:17,583 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
