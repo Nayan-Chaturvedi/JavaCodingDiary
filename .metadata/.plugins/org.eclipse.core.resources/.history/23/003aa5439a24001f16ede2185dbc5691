@@ -1,0 +1,41 @@
+package Program;
+
+class ClassLevelLock
+{
+	public void m1()
+	{
+		for(int i=0; i<5; i++)
+		{
+			System.out.println(Thread.currentThread().getName()+" "+i);
+		}
+	}
+}
+
+class LockOperator extends Thread
+{
+	ClassLevelLock cl;
+	
+	public LockOperator(ClassLevelLock cl) 
+	{
+		this.cl=cl;
+	}
+	
+	public void run()
+	{
+		cl.m1();
+	}
+	
+}
+
+public class Program_1
+{
+	public static void main(String[] args) 
+	{
+		ClassLevelLock cl=new ClassLevelLock();
+		LockOperator lo1=new LockOperator(cl);
+		LockOperator lo2=new LockOperator(cl);
+		
+		lo1.start();
+		lo2.start();
+	}
+}

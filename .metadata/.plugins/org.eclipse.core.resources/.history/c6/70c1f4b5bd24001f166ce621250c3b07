@@ -1,0 +1,37 @@
+package service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import PagingAndSorting.SpringJpaExample.Book;
+import PagingAndSorting.SpringJpaExample.BookRepository;
+import PagingAndSorting.SpringJpaExample.BookService;
+
+@Service
+public class ImplementBookService implements BookService 
+{
+
+	@Autowired
+	private BookRepository res;
+	
+	@Override
+	public List<Book> getAll() 
+	{
+		return res.findAll();
+	}
+
+	@Override
+	public void createData(Book book) 
+	{
+		res.save(book);	
+	}
+
+	@Override
+	public Book getById(Long id) 
+	{
+		return res.findById(id).orElseThrow(()->new RuntimeException(id+" not found"));
+	}
+
+}

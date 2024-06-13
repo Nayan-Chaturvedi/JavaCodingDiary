@@ -1,0 +1,39 @@
+package Program;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+class Parenthisis
+{
+	String al[];
+	int size;
+	Scanner sc=new Scanner(System.in);
+	
+	public void input()
+	{
+		System.out.println("Enter an Size ");
+		size=sc.nextInt();
+		al=new String[size];
+		for(int i=0; i<al.length; i++)
+		{
+			System.out.println("Enter Bracket");
+			al[i]=sc.next();			
+		}
+		
+		for(int i=0; i<al.length; i++)
+		{
+			System.out.println(al[i]);
+		}
+	}
+	
+}
+
+public class Program_1
+{
+	public static void main(String[] args) 
+	{
+		Parenthisis p=new Parenthisis();
+		p.input();
+	}
+}
