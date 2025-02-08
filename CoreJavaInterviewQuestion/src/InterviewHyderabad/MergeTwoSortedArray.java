@@ -3,7 +3,7 @@ package InterviewHyderabad;
 public class MergeTwoSortedArray {
 
 	public static void main(String[] args) {
-		int[] array1 = {1, 3, 5, 7};
+	int[] array1 = {1, 3, 5, 7};
         int[] array2 = {2, 4, 6, 8};
          mergeArrays(array1, array2);
 	}
