@@ -52,7 +52,8 @@ public class CalculatorServiceTest
 		
 	}
 	
-	public  void cleanUp()
+	@AfterClass
+	public  static void cleanUp()
 	{
 		System.out.println("After all cases");
 	}

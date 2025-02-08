@@ -39,6 +39,7 @@ class Sort
 	{
 		Map<String, Integer> sortedMap= map.entrySet().stream().sorted(Map.Entry.comparingByKey((String name1, String name2)->name1.compareToIgnoreCase(name2)))
 		.collect(Collectors.toMap(Map.Entry :: getKey, Map.Entry :: getValue, (e1,e2)->e1, LinkedHashMap :: new));
+		
 		// Explain
 		
 

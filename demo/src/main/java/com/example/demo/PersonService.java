@@ -15,4 +15,10 @@ public class PersonService
 	{
 		return repo.findAll();
 	}
+	
+	public PersonService(PersonRepo repo) 
+	{
+		this.repo=repo;
+	}
+	
 }

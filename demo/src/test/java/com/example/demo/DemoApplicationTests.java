@@ -3,9 +3,10 @@ package com.example.demo;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-
+@SpringBootTest
 class DemoApplicationTests {
 
 	private Calculator c=new Calculator();
@@ -46,5 +47,21 @@ class DemoApplicationTests {
 		
 		assertThat(res).isEqualTo(true);
 	}
+	@Autowired
+	private PersonRepo pr;
+	
+	@Test
+	void isPersonExistById()
+	{
+		
+//		Person p=new Person(123, "Vikas", "Kolkata");
+//		pr.save(p);
+		
+		Boolean actualResult=pr.isPersonExistById(121);
+		assertThat(actualResult).isTrue();
+	}
+	
+	
+	 
 	
 }
