@@ -37,8 +37,7 @@ class Sort
 	
 	public void sort()
 	{
-		Map sortMap=map.entrySet().stream()
-		.sorted(Map.Entry.comparingByValue())
+		Map<String, Integer> sortedMap= map.entrySet().stream().sorted(Map.Entry.comparingByKey((String name1, String name2)->name1.compareToIgnoreCase(name2)))
 		.collect(Collectors.toMap(Map.Entry :: getKey, Map.Entry :: getValue, (e1,e2)->e1, LinkedHashMap :: new));
 		
 		// Explain
@@ -59,7 +58,7 @@ class Sort
 		//		ACCESS DATA
 		
 		System.out.println("After sort");
-		Set set=sortMap.entrySet();
+		Set set=sortedMap.entrySet();
 		Iterator itr=set.iterator();
 		
 		System.out.println("KEY \t  VALUE");

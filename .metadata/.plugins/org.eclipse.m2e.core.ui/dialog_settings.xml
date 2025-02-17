@@ -2,6 +2,17 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Madhupushpa Project"/>
+			<item value="D:\Full Stack Project\Employee-Management-System"/>
+			<item value="D:\Full Stack Project"/>
+			<item value="D:\Eclispe_Rough\AngularWithSpringBoot"/>
+			<item value="D:\Eclispe_Rough\FileStorage"/>
+			<item value="D:\Eclispe_Rough\Schedular"/>
+			<item value="D:\Eclispe_Rough\SprinfAuthLoginForm"/>
+			<item value="D:\Eclispe_Rough\Actuator"/>
+			<item value="D:\Eclispe_Rough\Validation"/>
+			<item value="D:\EclipseWorkspace\Validation"/>
+			<item value="D:\EclipseWorkspace\demo"/>
 			<item value="D:\SpringInitilizer_EclipseWorkspace\SpringJpaExample"/>
 			<item value="D:\SpringInitilizer_EclipseWorkspace"/>
 		</list>
@@ -17,5 +28,77 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\EclipseWorkspace"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="J_Unit_.testt"/>
+			<item value="J_Unit_.t"/>
+			<item value="J_Unit.Test_"/>
+			<item value="J_Unit.Testing"/>
+		</list>
+		<list key="groupId">
+			<item value="J_Unit_"/>
+			<item value="J_Unit"/>
+		</list>
+		<list key="artifactId">
+			<item value="testt"/>
+			<item value="t"/>
+			<item value="Test_"/>
+			<item value="Testing"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>
