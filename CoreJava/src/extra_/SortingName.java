@@ -68,3 +68,45 @@ public class SortingName
 		n.sort();
 	}
 }
+// Using comparable
+public class Person implements Comparable<Person> {
+    private String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    // Implement compareTo to sort by name alphabetically
+    @Override
+    public int compareTo(Person other) {
+        return this.name.compareToIgnoreCase(other.name);
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+}
+import java.util.*;
+
+public class SortNamesExample {
+    public static void main(String[] args) {
+        List<Person> people = Arrays.asList(
+            new Person("Nayan"),
+            new Person("Amit"),
+            new Person("Zara"),
+            new Person("Bhavna")
+        );
+
+        Collections.sort(people); // Uses compareTo internally
+
+        // Print sorted names
+        for (Person p : people) {
+            System.out.println(p);
+        }
+    }
+}
