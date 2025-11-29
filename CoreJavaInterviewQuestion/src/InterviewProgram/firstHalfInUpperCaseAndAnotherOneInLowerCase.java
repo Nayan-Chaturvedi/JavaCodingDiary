@@ -52,3 +52,15 @@ class Main {
       System.out.println(map);
     }
 }
+
+
+// Remove Special Characters
+
+public class Main {
+    public static void main(String[] args) {
+        String s = "Na$ya@n#123";
+
+        s = s.replaceAll("[^a-zA-Z0-9]", "");
+        System.out.println(s);
+    }
+}
