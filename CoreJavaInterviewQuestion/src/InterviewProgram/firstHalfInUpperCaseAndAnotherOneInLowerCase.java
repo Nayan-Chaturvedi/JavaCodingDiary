@@ -33,3 +33,22 @@ public class firstHalfInUpperCaseAndAnotherOneInLowerCase
 	}
 }
 
+
+// Convert List to Map
+
+import java.util.List;
+import java.util.Arrays;
+import java.util.Map;
+import java.util.LinkedHashMap;
+
+class Main {
+    public static void main(String[] args) {
+      List<Character> al=Arrays.asList('A', 'C', 'D', 'Q');
+      Map<Integer, Character> map=new LinkedHashMap();
+      for(int i=0; i<al.size(); i++)
+      {
+          map.put(i, al.get(i));
+      }
+      System.out.println(map);
+    }
+}
