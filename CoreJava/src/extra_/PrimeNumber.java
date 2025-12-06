@@ -39,3 +39,26 @@ public class PrimeNumber {
 	}
 
 }
+
+
+// All Zero in End
+
+class Main {
+    public static void main(String[] args) {
+         int num[]={2, 3, 0, 2, 0, 5, 0, 8, 0, 9, 0};
+         int res[]=new int[num.length];
+         int j=0;
+         
+         for(int i=0; i<num.length; i++)
+         {
+             if(num[i]!=0)
+             {
+                res[j++]=num[i]; 
+             }
+         }
+         for(int i=0; i<res.length; i++)
+         {
+             System.out.println(res[i]);
+         }
+    }
+}
