@@ -88,3 +88,22 @@ class Main {
        
     }
 }
+
+// Find Longest Word in a Sentence
+class Main {
+    public static void main(String[] args) {
+         String s = "Java programming is powerful";
+         String st="";
+         
+         String str[]=s.split(" ");
+         
+         for(int i=0; i<str.length-1; i++)
+         {
+             if(str[i].length()<str[i+1].length())
+             {
+                 st=str[i+1];
+             }
+         }
+         System.out.println(st);
+    }
+}
