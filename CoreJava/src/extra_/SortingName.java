@@ -110,3 +110,47 @@ public class SortNamesExample {
         }
     }
 }
+
+// Concurrent Collection
+// Collection thread safe nahi hota hai agar hame thread safety achive karni hai to Concurrent Collection use karna hoga
+// Hamne yaha CopyOnWriteArrayList (jo ki concurrent package ke ander class hai) use kiya hai
+
+package JavaBasicProgram;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+public class Program_1 {
+
+	public static void main(String[] args) {
+		
+		List<String> al=new CopyOnWriteArrayList();
+		al.add("First");
+		al.add("Second");
+		al.add("Third");
+		al.add("Forth");
+		al.add("Fivth");
+		
+		Runnable t1=()->{
+			for (String string : al) {
+				System.out.println(string);
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		};
+		
+		Runnable t2=()->{
+			al.add("Sixth");
+		};
+		new Thread(t2).start();
+		new Thread(t1).start();
+		
+	}
+
+}
+
